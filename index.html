@@ -80,6 +80,14 @@
     </main>
   </div>
 
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.164.1/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.164.1/examples/jsm/"
+    }
+  }
+  </script>
   <script type="module">
     const $ = (id) => document.getElementById(id);
     const unitToMeters = { in: 0.0254, ft: 0.3048, mm: 0.001, cm: 0.01, m: 1 };
